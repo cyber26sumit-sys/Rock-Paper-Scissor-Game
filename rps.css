@@ -1,0 +1,65 @@
+
+        body {
+            background-color: #000000;
+            color: white;
+            font-weight: Bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 7px rgb(245, 75, 23);
+
+        }
+
+        .chose {
+            height: 50px;
+        }
+
+        .But {
+            border-radius: 50%;
+            background-color: transparent;
+            border: 2px white solid;
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+        }
+        button{
+            cursor: pointer;
+            box-shadow:0px 0px 10px 2px white; 
+        }
+        #reset,#autoPlay,#stopAutoPlay{
+            height:30px;
+            font-weight: bold;
+            background-color: rgb(38, 108, 182);
+            border:none;
+            color:white;
+            border-radius:5px;
+            margin-left:20px;
+            padding:0px 10px;
+            box-shadow:none;
+        }
+        #stopAutoPlay{
+            background-color: rgb(213, 9, 9);
+            
+        }
+        #autoPlay{
+            background-color: #0fac04;
+        }
+        #display{
+            font-weight: bold;
+            font-size: 20px;
+            text-shadow:10px 10px 20px rgb(159, 120, 236);
+        }
+        /* #rock{
+            background-image: url(rock-emoji.png);
+            background-size:cover;
+        }
+        #paper{
+             background-image: url(paper-emoji.png);
+             background-size:cover;
+        }
+        #scissor{
+             background-image: url(scissors-emoji.png);
+             background-size:cover;
+        } */
+    button:active{
+        background-color: rgb(40, 51, 61);
+        transform:scale(0.75);
+    }
