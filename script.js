@@ -54,7 +54,7 @@
                 }
             }
             localStorage.setItem('X', JSON.stringify(score));
-            updateDisplay(`You :<img src="${player}-emoji.png" class='chose'>   Computer: <img src="${comp}-emoji.png" class='chose'>`);
+            updateDisplay(`You :<img src="./${player}-emoji.png" class='chose'>   Computer: <img src="./${comp}-emoji.png" class='chose'>`);
            // alert(`You: ${player}  Computer: ${comp} \n\n Wins: ${score.wins} Loses: ${score.loses} Ties: ${score.ties}`);
         }
 
@@ -105,7 +105,7 @@
                     }
                 }
                 
-                updateDisplay(`Computer-1 :<img src="${autoValue}-emoji.png" class='chose'>   Computer-2 : <img src="${comp}-emoji.png" class='chose'>`);
+                updateDisplay(`Computer-1 :<img src="./${autoValue}-emoji.png" class='chose'>   Computer-2 : <img src="./${comp}-emoji.png" class='chose'>`);
                 },1000);
         }
         function stopInterval(){
