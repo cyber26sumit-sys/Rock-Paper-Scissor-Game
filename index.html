@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rps.css">   
+</head>
+
+<body>
+    <h1 align="center">Rock Paper Scissor</h1>
+
+    <div align='center'>
+    <button onclick="RPS(this.value)" id="rock" value="rock" class="But">
+        <img src="/Mini Projects/Images/rock-emoji.png" alt="Rock emoji" class="chose">
+    </button>
+
+    <button onclick="RPS(this.value) " id="paper" value="paper" class="But">
+        <img src="/Mini Projects/Images/paper-emoji.png" alt="Paper emoji" class="chose">
+    </button>
+
+    <button onclick="RPS(this.value)" id="scissor" value="scissors" class="But">
+        <img src="/Mini Projects/Images/scissors-emoji.png" alt="Scissors emoji" class="chose">
+    
+    </button>
+</div>
+
+<p align="center" >
+<button  id="reset" onclick="Reset()">Reset</button>
+<button id="autoPlay" onclick="Autoplay(score)">Autoplay</button>
+<button id="stopAutoPlay" onclick="stopInterval()">Stop AutoPlay</button>
+<Button id="resume" onclick="resumeAutoplay()">Resume Autoplay</Button></p>
+<p align="center" id="mode"></p>
+<p align="center" id="display" class=".chose"></p>
+
+<script src="rps.js">
+        
+</script>
+</body>
+
+</html>
